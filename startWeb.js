@@ -6,7 +6,7 @@ var  serverConfig = {
         },
         "server": {
             "wwwPath": __dirname,
-            "port": process.env.PORT,
+            "port": 8080, //process.env.PORT,
             "maxSockets": 200
         }
      },
