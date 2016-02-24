@@ -15,7 +15,8 @@ Once the package is installed, you can change to the install directory and type:
 That will start the website. You can point your browser to http://127.0.0.1:8080 to see the results.
 
 ## Deploy To Heroku
-Deploying the website to Heroku is a piece of cake. First of all, change the port setting in the startWeb.js file (line #9) to "process.env.PORT" (see the sample code below).
+The demo website is ready for Heroku deployment right out of the box. There are only two minor changes you have to make.
+First of all, change the port setting in the startWeb.js file (line #9) to "process.env.PORT" (see the sample code below).
 
     var  serverConfig = {
             "apiEngine": {
