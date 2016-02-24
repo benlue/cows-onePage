@@ -41,4 +41,4 @@ Now you can push the whole website to Heroku using 'git push heroku master' and 
 
 ## What's Next
 All website files are under the 'onePage' directory. Look for 'onePage/themes/onePage/layout/default/page.html' and 'onePage/themes/onePage/blocks/views/home/home.html' as the starting point.
-If you're not quite familiar with coServ, you can check the [user guide](https://www.gitbook.com/book/benlue/coserv-user-guide/details) to learn about this amazing framework.
+If you're not quite familiar with coServ, you can check the [coServ user guide](https://www.gitbook.com/book/benlue/coserv-user-guide/details) to learn about this amazing framework.
