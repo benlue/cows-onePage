@@ -1,0 +1,44 @@
+<%
+    var  menuTitle = [],
+         menuAnchor = [];
+    for (var i in _params.menu)  {
+        var m = _params.menu[i];
+        menuTitle.push( m.title );
+        menuAnchor.push( m.url );
+    }
+    
+    var  title = _params.title,
+         headerURL = _params.headerBlock || '/home/header',
+         footerURL = _params.footerBlock || '/home/footer';
+%>
+<div id="page-top">
+    <%
+        var  params = {
+                title: title,
+                menu: menuTitle
+             };
+
+        wcomp('/RWD/navHeader', params);
+    %>
+
+    <!-- Header -->
+    <header class="docSection">
+        <% block(headerURL); %>
+    </header>
+
+    <%
+    for (var i in menuAnchor) {
+        var  idx = parseInt(i)+1;
+        console.log( menuAnchor[i] );
+    %>
+    <!-- Section #1 -->
+    <section id="section<%=idx%>" class="docSection">
+        <% block(menuAnchor[i]); %>
+    </section>
+    <%
+    }
+    
+    // Footer
+    block(footerURL);
+    %>
+</div>

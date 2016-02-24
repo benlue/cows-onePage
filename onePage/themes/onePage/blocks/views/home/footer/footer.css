@@ -1,0 +1,12 @@
+.footerTop {
+    background: #333;
+    color: #aaa;
+    border-bottom: 1px solid #0f0f0f;
+}
+
+.footerBot {
+	color: #c4c4c4;
+    background: #222;
+    text-align: center;
+    padding: 20px;
+}

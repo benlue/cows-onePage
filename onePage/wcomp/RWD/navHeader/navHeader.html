@@ -1,0 +1,40 @@
+<%
+    var  menu = _params.menu,
+         title = _params.title;
+%>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header sec-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#idx-main-menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#page-top">
+                <img alt="coServ website" src="/img/xs.png" style="height: 24px; margin-right: 10px;">
+                <%= title %>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="idx-main-menu">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <%
+                for (var i in menu)  {
+                    var  idx = parseInt(i)+1;
+                %>
+                <li class="sec-scroll">
+                    <a href="#section<%=idx%>"><%=menu[i]%></a>
+                </li>
+                <% } %>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>

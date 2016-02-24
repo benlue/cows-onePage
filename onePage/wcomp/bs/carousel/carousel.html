@@ -1,0 +1,47 @@
+<%
+    var  slides = _params.slides;
+%>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <%
+        for (var i in slides)  {
+        %>
+        <li data-target="#carousel-example-generic" data-slide-to="<%=i%>" <%= i>0 ?  '' : 'class=\"active\"'%>></li>
+        <% } %>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <%
+        for (var i in slides)  {
+            var  slide = slides[i];
+        %>
+        <div class="item<%= i>0  ?  '' : ' active'%>">
+            <% block(slide); %>
+            <!-- 
+            <div style="diplay: flex;">
+            <img src="/img/design_console.png" alt="coServ design console">
+            <div class="carousel-caption">
+            coServ Web Server
+            </div>
+            </div>
+            -->
+        </div>
+        <% } %>
+    </div>
+
+    <!-- Controls -->
+    <%
+    if (slides.length > 1) {
+    %>
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <% } %>
+</div>

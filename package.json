@@ -1,0 +1,28 @@
+{
+  "name": "cows-onePage",
+  "version": "0.1.0",
+  "description": "A one page website demo.",
+  "engines": "4.2.2",
+  "scripts": {
+      "start": "node startWeb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benlue/cows-onePage.git"
+  },
+  "keywords": [
+    "Node.js",
+    "COIMOTION",
+    "one-page",
+    "coserv",
+    "JASS"
+  ],
+  "author": {
+    "name": "Ben Lue, Gocharm Inc."
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "coserv": "file:../coServ"
+  }
+}

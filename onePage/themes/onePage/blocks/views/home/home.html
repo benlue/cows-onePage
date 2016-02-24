@@ -1,0 +1,14 @@
+<%
+    var  menu = [
+            {title: 'About', url: '/home/sec1'},
+            {title: 'Features', url: '/home/sec2'},
+            {title: 'Contact', url: '/home/sec3'}
+         ],
+         params = {
+            title: 'Website Title',
+            menu: menu
+         };
+%>
+<div id="page-top">
+    <% wcomp('/RWD/onePage', params); %>
+</div>

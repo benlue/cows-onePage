@@ -1,0 +1,15 @@
+{
+    "localhost": {
+        "caCode": "admin",
+        "title": "The coServ Design Console",
+        "sitePath": "./node_modules/coserv/www/admin",
+        "locale": "en"
+    },
+    "127.0.0.1": {
+        "caCode": "onePage",
+        "title": "A One Page Website",
+        "home": "/home",
+        "locale": "en",
+        "sitePath": "/Users/ben/proj/yr105/cows-onePage/onePage"
+    }
+}

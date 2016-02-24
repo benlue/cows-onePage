@@ -1,0 +1,7 @@
+.flexC {
+    <% if (bi.client.category === 'mobile') %>
+    margin: 0px 10px;
+    <% else { %>
+    margin: 0px 100px;
+    <% } %>
+}
