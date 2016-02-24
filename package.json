@@ -4,7 +4,7 @@
   "description": "A one page website demo.",
   "engines": "4.2.2",
   "scripts": {
-      "start": "node startWeb.js"
+    "start": "node startWeb.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "coserv": "file:../coServ"
+    "coserv": "^0.10.3"
   }
 }
