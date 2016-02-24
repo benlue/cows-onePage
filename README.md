@@ -6,7 +6,7 @@ The web desgin was kept to minimum so you can easily modify it to suit your need
 ## Install & Run
 You can install the website using npm:
 
-    npm install cows-onePage
+    npm install cows-onepage
     
 Once the package is installed, you can change to the install directory and type:
 
