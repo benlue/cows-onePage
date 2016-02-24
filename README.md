@@ -16,7 +16,7 @@ That will start the website. You can point your browser to http://127.0.0.1:8080
 
 ## Deploy To Heroku
 The demo website is ready for Heroku deployment right out of the box. There are only two minor changes you have to make.
-First of all, change the port setting in the startWeb.js file (line #9) to "process.env.PORT" (see the sample code below).
+First of all, change the port setting in the [startWeb.js](https://github.com/benlue/cows-onePage/blob/master/startWeb.js) file (line #9) to "process.env.PORT" (see the sample code below).
 
     var  serverConfig = {
             "apiEngine": {
@@ -35,7 +35,7 @@ First of all, change the port setting in the startWeb.js file (line #9) to "proc
     coServ.init(serverConfig);
     coServ.restart();
 
-You'll also need to assign the domain name of your Heroku machine to the demo website. Replace "127.0.0.1" with your Heroku domain in the "sites.json" file.
+You'll also need to assign the domain name of your Heroku machine to the demo website. Replace "127.0.0.1" with your Heroku domain in the [sites.json](https://github.com/benlue/cows-onePage/blob/master/sites.json) file.
 
 Now you can push the whole website to Heroku using 'git push heroku master' and that's it. Your website is now available to the world.
 
