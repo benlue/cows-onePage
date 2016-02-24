@@ -1,5 +1,5 @@
-A One Page Website by coServ
-----------------------------
+A One Page Website Demo
+-----------------------
 This is a onw page RWD demo to show case how easily you can create & manage a website using coServ.
 
 ## Install & Run
