@@ -1,7 +1,8 @@
-.flexC {
-    <% if (bi.client.category === 'mobile') %>
-    margin: 0px 10px;
-    <% else { %>
-    margin: 0px 100px;
-    <% } %>
+#slideBox {
+    margin-bottom: 20px;
+}
+
+img.center-img {
+    display: block;
+    margin: 0 auto;
 }
