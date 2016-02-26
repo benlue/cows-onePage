@@ -1,6 +1,6 @@
 {
   "name": "cows-onepage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A one page website demo.",
   "engines": "4.2.2",
   "scripts": {
@@ -12,9 +12,9 @@
   },
   "keywords": [
     "Node.js",
-    "COIMOTION",
     "one-page",
     "coserv",
+    "COIMOTION",
     "JASS"
   ],
   "author": {
@@ -23,6 +23,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "coserv": "^0.10.3"
+    "coserv": "^0.10.4"
   }
 }

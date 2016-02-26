@@ -1,6 +1,7 @@
 <%
     var  menu = _params.menu,
-         title = _params.title;
+         title = _params.title,
+         brandImage = _params.brandImage;
 %>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -13,7 +14,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#page-top">
-                <img alt="coServ website" src="/img/xs.png" style="height: 24px; margin-right: 10px;">
+                <img alt="coServ website" src="<%= brandImage %>" style="height: 24px; margin-right: 10px;">
                 <%= title %>
             </a>
         </div>
