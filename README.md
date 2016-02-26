@@ -39,6 +39,5 @@ You'll also need to assign the domain name of your Heroku machine to the demo we
 
 Now you can push the whole website to Heroku using 'git push heroku master' and that's it. Your website is now available to the world.
 
-## What's Next
-All website files are under the 'onePage' directory. Look for 'onePage/themes/onePage/layout/default/page.html' and 'onePage/themes/onePage/blocks/views/home/home.html' as the starting point.
-If you're not quite familiar with coServ, you can check the [coServ user guide](https://www.gitbook.com/book/benlue/coserv-user-guide/details) to learn about this amazing framework.
+## Documentation
+A simple [article](https://github.com/benlue/cows-onePage/blob/master/onePage/doc/howTo.md) has been included to show you how to modify this demo website to become your own.

@@ -28,10 +28,10 @@ The header HTML file needs a little explanation. Let's show its source code belo
 
 ![header source code](img/head_html.png)
 
-As shown in the source code, the heading section invokes a '/bs/carousel' wcomp which is nothing more than a bootstrap carousel. The demo uses just one slide and that slide is represented by the '(/home/header/slide1)[../themes/onePage/blocks/views/home/header/slide1]' block. You can add more slides to the carousel heading by adding blocks to the slides array.
+As shown in the source code, the heading section invokes a '/bs/carousel' wcomp which is nothing more than a bootstrap carousel. The demo uses just one slide and that slide is represented by the '[/home/header/slide1](../themes/onePage/blocks/views/home/header/slide1)' block. You can add more slides to the carousel heading by adding blocks to the slides array.
 
 ### Where is wcomp
-In this short article, we talk several times about wcomp. You can find the source codes of wcomps in [this directory](https://github.com/benlue/cows-onePage/tree/master/onePage/wcomp).
+In this short article, we mentioned several times about wcomp. You can find the source codes of wcomps in [this directory](https://github.com/benlue/cows-onePage/tree/master/onePage/wcomp).
 
 ## Settings
 This website is implemented by coServ. coServ can host multiple websites at the same time, so you need to tell coServ some basic info about your website. This is done by the sites.json file which is located in the install directory.
